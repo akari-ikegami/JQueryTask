@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+}
+
+.title{
+  margin: 0;
+  color: gray;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+header{
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+
+header .inner{
+  margin: auto;
+  max-width: 100%;
+  width: 1020px;
+}
+
+header .flexbox{
+  align-items: center;
+  display:  flex;
+  justify-content: space-between;  
+}
+
+.nav-title ul{
+  list-style: none;
+}
+
+.nav-title li{
+  margin: 0 15px;
+}
+
+.nav-title a{
+  color: gray;
+  text-decoration: none;
+}
+
+.about{
+  max-width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+.text1{
+  position: absolute;
+  background-color: #fff;
+  font-size: 50px;
+  color: gray;
+  top: 250px;
+  left: 350px;
+  opacity: 0.5;
+}
+
+.text1 a{
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text2{
+  position: absolute;
+  background-color: #fff;
+  font-size: 50px;
+  color: gray;
+  opacity:0.5;
+  top: 900px;
+  left: 280px;
+}
+
+.text2 a{
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text3{
+  position: absolute;
+  background-color: #fff;
+  font-size: 50px;
+  color: gray;
+  opacity:0.5;
+  top: 900px;
+  left: 700px;
+}
+
+.text3 a{
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.about img{
+  border-radius: 10px;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.two-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.sea-img{
+  border-radius: 30px;
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+}
+
+.plants-img{
+  border-radius: 30px;
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
