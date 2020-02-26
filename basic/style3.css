@@ -40,6 +40,14 @@ header .flexbox{
   text-decoration: none;
 }
 
+nav span{
+  background: #000;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;  
+}
+
 .flex{
   display: flex;
   justify-content: space-between;
