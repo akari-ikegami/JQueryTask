@@ -27,31 +27,29 @@
     </div>
   </header>
 
-  <div class="header-content">
-    <div class="content-box">
-        <h1>CONTACT FORM</h1>
+  <p class="lead-form">CONTACT FORM</p>
+
+  <form>
+    <div class="item">
+      <label class="label">NAME</label>
+      <input class="inputs" type="text" name="name">
     </div>
-    <div class="content-box">
-        <div>
-            <p>NAME</p>
-            <p><input type="text" name="name"/></p>
-        </div>
-        <div>
-            <p>MAIL ADDRESS</p>
-            <p><input type="email" name="mail"/></p>
-        </div>
-        <div>
-            <p>TITLE</p>
-            <p><input type="text" name="subject"/></p>
-        </div>
-        <div>
-            <p>INQUIRY</p>
-            <textarea name="content"></textarea>
-        </div>
-        <input type="submit" value="送信"/>
-        
+
+    <div class="item">
+      <label class="label">MAIL</label>
+      <input class="inputs" type="email" name="email">
     </div>
-</div>
+
+    <div class="item">
+      <label class="label">MESSAGE</label>
+      <textarea class="inputs"></textarea>
+    </div>
+
+    <div class="btn-area">
+      <input type="submit" value="SEND">
+    </div>
+
+  </form>
 
 
 
