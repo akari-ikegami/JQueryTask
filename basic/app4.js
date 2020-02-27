@@ -11,3 +11,15 @@ $(function(){
     });
   });
 });
+
+$(window).scroll(function(){
+  $('.js-markerScrollAnimation').each(function(){
+    let position = $(this).offset().top;
+    let scroll = $(window).scrollTop();
+    let windowHeight = $(window).height();
+
+    if(scroll > position - windowHeight){
+      $(this).addClass('is-active');
+    }
+  });
+});

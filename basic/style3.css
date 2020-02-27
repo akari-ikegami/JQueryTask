@@ -74,6 +74,20 @@ nav span{
   padding: 100px 5px 0px 100px;
 }
 
+.c-marker{
+  background: -webkit-linear-gradient(left,  #6495ED 50%, transparent 50%);
+  background: -moz-linear-gradient(left, #6495ED  50%, transparent 50%);
+  background: linear-gradient(left, #6495ED  50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 200% .8em;
+  background-position: 100% .5em;
+  transition: 2s;
+}
+
+.c-marker.is-active{
+  background-position: 0% .5em;
+}
+
 
 footer{
   width: 100%;
