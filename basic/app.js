@@ -23,6 +23,7 @@ $('.title').css({
 },3000);
 
 
+
 $('img').on('mouseover',function(){
   $(this).css('opacity','0.5');
 })
