@@ -12,10 +12,21 @@ $(function(){
   });
 });
 
-$(function(){
-  $('img').hover(function(){
-    $(this).stop().animate({'opacity':'0.5'});
-  },function(){
-    $(this).stop().animate({'opacity':'1'});
-  });
+
+
+$('.title').css({
+  left: '-100px',
+  opacity: '0.0'
+}).animate({
+  left: '100px',
+  opacity: '1.0'
+},3000);
+
+
+$('img').on('mouseover',function(){
+  $(this).css('opacity','0.5');
+})
+$('img').on('mouseleave',function(){
+  $(this).css('opacity','1.0');
 });
+

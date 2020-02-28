@@ -2,6 +2,15 @@ body{
   margin: 0;
 }
 
+
+svg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .title{
   margin: 0;
   color: gray;
@@ -60,7 +69,7 @@ nav span{
   justify-content: flex-end;
   position: relative;
   font-size: 1.1em;
-  padding: 100px 300px;
+  padding: 50px 300px;
 }
 
 .contact-box input{
@@ -71,7 +80,6 @@ nav span{
   width: 500px;
   height: 100px;
 }
-
 
 
 
